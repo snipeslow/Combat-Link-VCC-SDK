@@ -1,5 +1,5 @@
 {
-	"name" : "com.snipeslow.combatlink",
+	"name" : "com.snipeslow.sdk.combatlink",
 	"displayName" : "CombatLink",
 	"version" : "0.5.2",
 	"unity" : "2018.4",
