@@ -9,6 +9,6 @@
 		"displayName": "CombatLink Huds",
 		"description": "Set of default huds to use",
 		"path": "CombatLink~/CombatLinkHuds"
-	},
+	}
 	]
 }
