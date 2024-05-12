@@ -33,7 +33,7 @@
             #pragma multi_compile_fog
 
             #include "UnityCG.cginc"
-            #include "Assets/CombatLink/Shaders/Includes/CombatLink_Shared.cginc"
+            #include "Packages/com.snipeslow.sdk.combatlink/Runtime/Shaders/Includes/CombatLink_Shared.cginc"
 
             struct appdata
             {

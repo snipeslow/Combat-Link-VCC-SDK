@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: CombatLinkManager
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: fef0fcb848ca0a842a94fcd538fef08e,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: c47d8d418ee61144b8eb1999b369389e,
     type: 2}
   udonAssembly: 
   assemblyError: 

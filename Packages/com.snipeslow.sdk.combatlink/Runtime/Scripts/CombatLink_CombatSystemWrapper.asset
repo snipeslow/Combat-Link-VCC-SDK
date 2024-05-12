@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: CombatLink_CombatSystemWrapper
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: cd9bd5798354e53419bbfc9dd5164b47,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: de4ebb8d2ae3a9c43b37c973bb91f12b,
     type: 2}
   udonAssembly: 
   assemblyError: 
@@ -62,7 +62,7 @@ MonoBehaviour:
       Data: 3|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: CombatLinkManager, Assembly-CSharp
+      Data: CombatLinkManager, com.snipeslow.combatlink
     - Name: 
       Entry: 8
       Data: 
