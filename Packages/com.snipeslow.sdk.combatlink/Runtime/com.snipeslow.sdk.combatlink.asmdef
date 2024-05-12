@@ -1,10 +1,11 @@
 {
-    "name": "com.snipeslow.combatlink",
+    "name": "com.snipeslow.sdk.combatlink",
     "rootNamespace": "",
     "references": [
         "UdonSharp.Lib",
         "UdonSharp.Runtime",
-        "VRC.Udon"
+        "VRC.Udon",
+        "VRC.Udon.Serialization.OdinSerializer"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

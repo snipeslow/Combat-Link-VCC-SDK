@@ -19,11 +19,6 @@ using VRC.SDKBase;
 using VRC.Udon;
 [UdonBehaviourSyncMode(BehaviourSyncMode.NoVariableSync)]
 public class CombatLinkManager : UdonSharpBehaviour
-#else
-using VRCShader = UnityEngine.Shader;
-
-public class CombatLinkManager : MonoBehaviour
-#endif
 {
 
     // This is used to detect if we are using a world project in the editor
@@ -536,3 +531,10 @@ public class CombatLinkManager : MonoBehaviour
     }
     float _Ammo2 = 0;
 }
+
+#else
+
+public class CombatLinkManager : MonoBehaviour
+{
+}
+#endif

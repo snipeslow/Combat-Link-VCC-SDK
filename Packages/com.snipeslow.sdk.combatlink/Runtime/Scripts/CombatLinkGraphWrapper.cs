@@ -6,9 +6,6 @@ using UdonSharp;
 using VRC.SDKBase;
 using VRC.Udon;
 public class CombatLinkGraphWrapper : UdonSharpBehaviour
-#else
-public class CombatLinkGraphWrapper : MonoBehaviour
-#endif
 {
     public CombatLinkManager CombatLinkManager;
     [Header("CombatLink variables below!")]
@@ -38,7 +35,7 @@ public class CombatLinkGraphWrapper : MonoBehaviour
     public float Ammo2;
     private void LateUpdate()
     {
-        if(CombatLinkManager)
+        if (CombatLinkManager)
         {
             CombatLinkManager.Active = Active;
             CombatLinkManager.APVP = APVP;
@@ -67,3 +64,9 @@ public class CombatLinkGraphWrapper : MonoBehaviour
         }
     }
 }
+
+#else
+public class CombatLinkGraphWrapper : MonoBehaviour
+{
+}
+#endif

@@ -6,9 +6,6 @@ using UdonSharp;
 using VRC.SDKBase;
 using VRC.Udon;
 public class CombatLink_CombatSystemWrapper : UdonSharpBehaviour
-#else
-public class CombatLink_CombatSystemWrapper : MonoBehaviour
-#endif
 {
     public CombatLinkManager CombatLinkManager;
     [Header("CombatLink variables below!")]
@@ -20,7 +17,7 @@ public class CombatLink_CombatSystemWrapper : MonoBehaviour
         {
             CombatLinkManager.Active = Active;
             CombatLinkManager.Health = Networking.LocalPlayer.CombatGetCurrentHitpoints();
-            if(MaxHealth > CombatLinkManager.Health)
+            if (MaxHealth > CombatLinkManager.Health)
             {
                 MaxHealth = CombatLinkManager.Health;
             }
@@ -32,3 +29,8 @@ public class CombatLink_CombatSystemWrapper : MonoBehaviour
         MaxHealth = 0;
     }
 }
+#else
+public class CombatLink_CombatSystemWrapper : MonoBehaviour
+{
+}
+#endif
